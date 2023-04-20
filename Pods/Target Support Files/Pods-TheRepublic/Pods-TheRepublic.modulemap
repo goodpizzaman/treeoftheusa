@@ -1,0 +1,6 @@
+framework module Pods_TheRepublic {
+  umbrella header "Pods-TheRepublic-umbrella.h"
+
+  export *
+  module * { export * }
+}

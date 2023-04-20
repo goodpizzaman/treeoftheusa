@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.7.3)
+  - DeviceKit (1.8.1)
+  - geos (3.5.0)
+  - GEOSwift (2.2.0):
+    - geos (= 3.5.0)
+  - HanekeSwift (0.10.1)
+  - PMAlertController (3.5.0)
+  - SwiftSpinner (1.6.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - DeviceKit (~> 1.3)
+  - GEOSwift
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift`, branch `feature/swift-3`)
+  - PMAlertController
+  - SwiftSpinner
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DeviceKit
+    - geos
+    - GEOSwift
+    - PMAlertController
+    - SwiftSpinner
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: feature/swift-3
+    :git: https://github.com/Haneke/HanekeSwift
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 2f6d87f1f725d204d85cb34492e8c399cd5a200f
+    :git: https://github.com/Haneke/HanekeSwift
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  DeviceKit: eb29be542f5473b46b1c719011cf7de3ec5264ca
+  geos: e96c6ca3f3ce02d20feaa8d90d4af383e11e7198
+  GEOSwift: 8633f4f613d8c010eec90d26a6b7efd15bb98a51
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  PMAlertController: 06dab8160066fc4ce991c880e3722cd403e2926a
+  SwiftSpinner: 3a4c6dea425e5a31b908a8b1dd5dcd1ad4d96340
+
+PODFILE CHECKSUM: f00f8f9257464ce2bd2416484e072b70c76d7303
+
+COCOAPODS: 1.5.3
